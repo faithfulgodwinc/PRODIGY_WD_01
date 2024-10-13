@@ -41,9 +41,10 @@ header nav ul li {
 header ul li a {
     color: #201E43;
 }
-a:hover {
+header nav ul li a:hover {
     color: #afa9e6;
-}
+    text-decoration: underline;
+  }
 .logo {
     color: #201E43;
     font-size: 1.7rem;
