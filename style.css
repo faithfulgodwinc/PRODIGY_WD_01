@@ -1,0 +1,142 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.jano_font {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8ff;
+}
+header {
+    height: 5vw;
+    background-color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul {
+    display: flex;
+    color: #201E43;
+    column-gap: 1rem;
+    margin-right: 2rem;
+    font-weight: 600;
+    font-style: bolder;
+    font-size: 20px;
+}
+header nav ul li {
+    list-style: none;
+    cursor: pointer;
+}
+header ul li a {
+    color: #201E43;
+}
+a:hover {
+    color: #afa9e6;
+}
+.logo {
+    color: #201E43;
+    font-size: 1.7rem;
+    padding-top: 1%;
+}
+#view_1 {
+    color: #fff;
+    padding-bottom: 2rem;
+    background-image: url(WhatsApp\ Image\ 2024-10-10\ at\ 09.25.42_1b9ad00b.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    margin-top: 0;
+}
+.cont{
+    padding-left: 5%;
+    padding-top: 6%;
+    text-align: center;
+}
+ h1 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 70px;
+    font-style: bold;
+    font-weight: 600;
+    padding-top: 2%;
+    margin-bottom: 1rem;
+    color: #f3e851;
+}
+.cont > p {
+    font-size: 25px;
+}
+.jaro-font {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.sch{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+.sch_child {
+    background-color: #fefefe;
+    color: #201E43;
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, 0.3); */
+    width: 30%;
+    height: 9rem;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+ button {
+    background-color: #F9A825;
+    width: 10%;
+    height: 3rem;
+    border: none;
+    border-radius: 0.7rem;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: bolder;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fff;
+    border: 1px solid #201E43;
+    color: #201E43;
+}
+footer {
+    width: 100%;
+}
+
+
+@media(max-width: 600px) {
+    #view{
+        width: 100%;
+        padding-top: 30%;
+        font-size: 200%;
+    }
+    
+}
+@media (min-width: 601px) and (max-width: 900px) {
+     #view_1 {
+        padding-top: 40%;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+    #view_1 {
+        padding-top: 40%;
+    }
+}
